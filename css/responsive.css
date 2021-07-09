@@ -18,43 +18,33 @@
     margin-right: -64px;
   }
 
-  /*  Shop */
-  .product-img img {
-    height: 250px;
-    width: 250px !important;
+  .slider_home .owl-dots {
+    margin-left: -2px;
   }
 
-  .cart-icon {
-    margin-right: 14px;
+  /* Service */
+  .service-item {
+    padding: 60px 40px 40px;
   }
 
-  .product-img {
-    padding-bottom: 140px;
-  }
 
   /*  Featured Product */
-  .fea-img {
-    height: 695px;
+  .featured-product-section .fea-img-carousel {
+    padding: 100px 0px;
   }
 
-  .fea-product-item {
-    padding: 30px 25px 24px;
+  .fea-img {
+    height: 723px;
   }
 
   /*  Testimonial */
-  .testimonial-section .base-header h2 {
-    padding-bottom: 0px;
-  }
-
-  .client-section {
-    margin-top: -40px;
+  .testimonial-section #scene2 {
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   /*  Blog */
-  .blog_date {
-    margin-top: -19px;
-    margin-left: -119px;
-  }
+
 
   .recnt_pst_imge {
     margin-right: 13px;
@@ -82,13 +72,30 @@
 =======================================================================================*/
 
 @media (min-width: 768px) and (max-width: 991px) {
+
   /*--------------------------------------
    Header And SLider
 ----------------------------------------*/
+  .header_top_left {
+    padding-left: 0px;
+    width: 49%;
+  }
+
+  .header_top_right {
+    width: 51%;
+    padding-right: 0px;
+  }
+
+  .header_socil li .fab {
+    margin-left: 5px;
+  }
+
+
 
   .header_cart {
-    margin-left: -2px;
+    margin-left: -3px;
     margin-top: 35px;
+    width: 122px;
   }
 
   .header_cart ul {
@@ -142,27 +149,11 @@
     font-size: 55px;
   }
 
+  .slider_home .owl-dots {
+    margin-left: -3px;
+  }
+
   /*  We Offer */
-  .service-item .icon-serv {
-    height: 75px;
-    width: 75px;
-    margin-top: -77px;
-  }
-
-  .service-item .icon-serv i {
-    font-size: 40px;
-    line-height: 79px;
-  }
-
-  .service-section .col-md-4 {
-    flex: 0 0 50%;
-    max-width: 50%;
-    margin-bottom: 30px;
-  }
-
-  .service-section {
-    margin-bottom: -30px;
-  }
 
   .service-pg-service .service-item {
     margin-bottom: 0px;
@@ -173,8 +164,6 @@
     font-size: 45px;
     letter-spacing: 0px;
   }
-
-  /*  Shop */
 
 
   /*  Featured Product */
@@ -215,17 +204,10 @@
   }
 
   /*  Testimonial */
-  .testimonial-section {
-    padding-bottom: 60px;
-  }
+
 
   .testimonial-section #scene2 {
     display: none;
-  }
-
-  .testimonial-section .col-sm-12:last-child {
-    flex: 0 0 100%;
-    max-width: 100%;
   }
 
   /*  Blog */
@@ -233,17 +215,9 @@
     margin-bottom: -30px;
   }
 
-  .blog-section .col-sm-12 {
-    flex: 0 0 50%;
-    max-width: 50%;
+  .blog-section .blog_wrp {
     margin-bottom: 30px;
   }
-
-  .blog_date {
-    margin-top: -38px;
-    margin-left: -140px;
-  }
-
 
   /*  Footer */
   .footer-section .col-sm-12:first-child,
@@ -307,13 +281,17 @@
     margin-right: 74px;
   }
 
+  .slider_home .owl-dots {
+    margin-left: -3px;
+  }
+
   /*  About Section */
   .base-header {
     width: 100%;
   }
 
   .about-section img {
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   /*  About Page */
@@ -323,6 +301,16 @@
 
   .history-section .tab-content {
     margin-left: 0px;
+  }
+
+  /*  We Offer */
+
+  .service-section .service-item {
+    margin-bottom: 110px;
+  }
+
+  .service-section {
+    padding-bottom: 10px;
   }
 
   /*  Service Page */
@@ -337,6 +325,16 @@
 
   .pricing-box {
     margin-bottom: 30px;
+  }
+
+  /* Farmer */
+  .team-section .col-sm-12 {
+    transition: .3s;
+    margin-bottom: 30px;
+  }
+
+  .team-section {
+    padding-bottom: 90px;
   }
 
   /*  Blog Page */
@@ -479,12 +477,16 @@
     width: 100%;
   }
 
+  .slider_btn_two {
+    margin-left: 0px;
+  }
+
   .single_slider {
-    height: 600px;
+    height: 700px;
   }
 
   .single_slider .container {
-    margin-top: -20px;
+    margin-top: -82px;
     text-align: center;
   }
 
@@ -493,8 +495,8 @@
   }
 
   .slider_home h2 {
-    font-size: 40px;
-    line-height: 1.2;
+    font-size: 50px;
+    line-height: 50px;
   }
 
   .slider_home h2 span {
@@ -523,22 +525,17 @@
   }
 
   .base-header h2 {
-    font-size: 40px;
+    font-size: 42px;
+    line-height: 1.2;
   }
 
   .base-header p br {
     display: none;
   }
 
-  /*  Promo Section */
-
-  /*  Service  */
-  .service-item {
-    margin-bottom: 30px;
-  }
-
-  .service-section {
-    margin-bottom: -30px;
+  /*  About Section */
+  .about_list p {
+    padding-left: 75px;
   }
 
   /*  Call to action */
@@ -551,28 +548,13 @@
     display: inline;
   }
 
-  /*  Shop */
-  .product-img {
-    width: 270px;
-  }
-
-  .cart-icon {
-    margin-right: -13px;
-  }
-
-  .product-wrap {
-    margin-left: 15px;
-    margin-right: 15px;
-    padding: 0px;
-  }
-
   /*  Featured Product */
   .featured-product-section .container-fluid {
     padding-left: 15px;
   }
 
   .featured-product-section .container-fluid>.row {
-    padding-bottom: 85px;
+    padding-bottom: 105px;
   }
 
   .featured-product-section .fea-img-carousel {
@@ -590,12 +572,7 @@
     width: 100%;
   }
 
-  .team-info {
-    margin-bottom: 30px;
-  }
-
   .team-section {
-    margin-bottom: -30px;
     background-repeat: no-repeat;
     background-size: cover;
   }
