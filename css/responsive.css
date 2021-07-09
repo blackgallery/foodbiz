@@ -13,12 +13,9 @@
   /*--------------------------------------
    Header And SLider
 ----------------------------------------*/
-  .header_cart {
-    margin-left: 35px;
-  }
 
   .navigation #navigation {
-    margin-right: -40px;
+    margin-right: -64px;
   }
 
   /*  Shop */
@@ -91,11 +88,15 @@
 
   .header_cart {
     margin-left: -2px;
-    margin-top: 37px;
+    margin-top: 35px;
   }
 
   .header_cart ul {
     padding-left: 13px;
+  }
+
+  .navigation .logo img {
+    margin-top: 25px;
   }
 
   #navigation.small-screen #menu-button::before,
@@ -110,7 +111,7 @@
     border-right: 1px solid rgba(120, 120, 120, 0.2);
     border-bottom: 1px solid rgba(120, 120, 120, 0.2);
     margin-bottom: 15px;
-    margin-left: -189px;
+    margin-left: -275px;
     width: 690px;
   }
 
@@ -300,12 +301,10 @@
     width: 90%;
   }
 
-  .header_cart {
-    margin-left: 15px;
-  }
+
 
   #navigation.small-screen #menu-button {
-    margin-right: 44px;
+    margin-right: 74px;
   }
 
   /*  About Section */
@@ -410,7 +409,8 @@
   .header_cart {
     position: absolute;
     right: 0px;
-    margin-right: 17px;
+    margin-right: 0px;
+    width: 100%;
   }
 
   .header_cart ul {
@@ -422,9 +422,11 @@
   }
 
   .navigation .logo {
-    margin-top: -80px;
+    margin-top: -78px;
     flex: 0 0 30%;
     max-width: 30%;
+    position: relative;
+    z-index: 99;
   }
 
   .navigation .logo img {
@@ -432,11 +434,14 @@
     width: 160px;
   }
 
-  .navigation .col-md-8 {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-left: -77px;
+  .navigation .col-sm-7 {
+    width: 100%;
   }
+
+  .navigation #navigation {
+    margin-right: 0px;
+  }
+
 
   #navigation.small-screen>ul {
     margin-top: -10px;
@@ -450,9 +455,10 @@
   #navigation.small-screen #menu-button {
     padding: 38px;
     margin-top: 23px;
-    margin-right: 80px;
+    margin-right: 83px;
     position: relative;
-    top: 3px;
+    top: 5px;
+    z-index: 9;
   }
 
   #navigation>ul>li>a {
@@ -787,4 +793,33 @@
     text-align: center;
   }
 
+  .navigation #navigation {
+    float: none;
+  }
+}
+
+
+
+@media (min-width:576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width:768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width:992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width:1200px) {
+  .container {
+    max-width: 1170px;
+  }
 }
