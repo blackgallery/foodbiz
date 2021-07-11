@@ -478,7 +478,7 @@
   }
 
   .slider_btn_two {
-    margin-left: 0px;
+    display: none;
   }
 
   .single_slider {
@@ -540,11 +540,11 @@
 
   /*  Call to action */
   .cta-wrap h2 {
-    font-size: 38px;
+    font-size: 42px;
+    line-height: 1.2;
   }
 
   .cta-wrap span {
-    font-weight: 400;
     display: inline;
   }
 
@@ -578,10 +578,6 @@
   }
 
   /*  Testimonial */
-  .testimonial-section .base-header {
-    text-align: center;
-    padding-left: 0px;
-  }
 
   .testi_sing_img {
     margin-bottom: 50px;

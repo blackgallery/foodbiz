@@ -70,7 +70,7 @@
         autoplayTimeout: 9000, // Default is 5000
         smartSpeed: 1000, // Default is 250
         loop: true,
-        navText: ["<i class='icon-glyph-205'></i>", "<i class='icon-glyph-204'></i>"],
+        navText: ["<i class='fal fa-chevron-left'></i>", "<i class='fal fa-chevron-right'></i>"],
         mouseDrag: true,
         touchDrag: true,
     });
@@ -108,7 +108,7 @@
         pagination: true,
         nav: false,
         dots: true,
-        navText: ["<i class='icon-glyph-41'></i>", "<i class='icon-glyph-40'></i>"],
+        navText: ["<i class='fal fa-chevron-left'></i>", "<i class='fal fa-chevron-right'></i>"],
         responsive: {
             1200: {
                 items: 4
@@ -150,7 +150,7 @@
         pagination: true,
         nav: true,
         dots: false,
-        navText: ["<i class='icon-glyph-205'></i>", "<i class='icon-glyph-204'></i>"],
+        navText: ["<i class='fal fa-chevron-left'></i>", "<i class='fal fa-chevron-right'></i>"],
     });
 
 
@@ -170,7 +170,7 @@
         pagination: true,
         nav: true,
         dots: false,
-        navText: ["<i class='icon-glyph-205'></i>", "<i class='icon-glyph-204'></i>"],
+        navText: ["<i class='fal fa-chevron-left'></i>", "<i class='fal fa-chevron-right'></i>"],
     });
 
     /*=======================================
@@ -187,7 +187,7 @@
         pagination: false,
         dots: false,
         nav: false,
-        navText: ["<i class='logo-nav-icon'></i>", "<i class='logo-nav-icon'></i>"],
+        navText: ["<i class='fal fa-chevron-left'></i>", "<i class='fal fa-chevron-right'></i>"],
         responsive: {
             1200: {
                 items: 5
@@ -225,8 +225,8 @@
             dots: true,
             autoplay: false,
             autoplaySpeed: 6000,
-            prevArrow: '<i class="icon-glyph-204"></i>',
-            nextArrow: '<i class="icon-glyph-204"></i>',
+            prevArrow: '<i class="fal fa-chevron-left"></i>',
+            nextArrow: '<i class="fal fa-chevron-right"></i>',
             responsive: [
 
                 {
