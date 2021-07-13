@@ -57,13 +57,14 @@
 
   /*  About Page */
   .about-pg-about {
-    padding-bottom: 88px;
+    padding-bottom: 108px;
+  }
+
+  .history-section {
+    margin-top: 110px;
   }
 
   /*  Contact Page */
-  .contact_pg_address {
-    padding: 35px 35px 25px;
-  }
 
 }
 
@@ -234,6 +235,15 @@
     margin-left: 0px;
   }
 
+  .history-section #v-pills-tab {
+    margin-right: 0px !important;
+  }
+
+  .history-section .base-header h2 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
   /*  Gallery Section */
   .work-section .col-sm-12 {
     flex: 0 0 50%;
@@ -290,13 +300,13 @@
     width: 100%;
   }
 
-  .about-section img {
+  .about_img img {
     margin-top: 50px;
   }
 
   /*  About Page */
   .about-pg-about {
-    padding-bottom: 88px;
+    padding-bottom: 108px;
   }
 
   .history-section .tab-content {
@@ -306,11 +316,11 @@
   /*  We Offer */
 
   .service-section .service-item {
-    margin-bottom: 110px;
+    margin-bottom: 90px;
   }
 
   .service-section {
-    padding-bottom: 10px;
+    padding-bottom: 30px;
   }
 
   /*  Service Page */
@@ -524,9 +534,17 @@
     font-size: 71px;
   }
 
+  .heading_small::before {
+    left: -50px;
+  }
+
+  .heading_small::after {
+    right: -50px;
+  }
+
   .base-header h2 {
     font-size: 42px;
-    line-height: 1.2;
+    line-height: 52px;
   }
 
   .base-header p br {
@@ -535,7 +553,15 @@
 
   /*  About Section */
   .about_list p {
-    padding-left: 75px;
+    padding-left: 110px;
+  }
+
+  .history-section .tab-content {
+    margin-top: 22px;
+  }
+
+  .history-section #v-pills-tab {
+    margin-right: 0px !important;
   }
 
   /*  Call to action */
@@ -612,7 +638,7 @@
   }
 
   .blog_container .blog_date {
-    margin-left: 0px;
+    margin-left: 26px;
   }
 
   .blog_pg_info {
@@ -640,6 +666,14 @@
     margin: 0px 2px;
     display: inline-block;
     margin-bottom: 4px;
+  }
+
+  .post-author {
+    padding: 20px 20px;
+  }
+
+  .post-author-text {
+    padding-left: 15px;
   }
 
   /*  Footer */
@@ -670,9 +704,7 @@
   }
 
   /*  Team Page */
-  .team-pg-team .col-sm-12 {
-    margin-bottom: 0px;
-  }
+
 
   .team-pg-team {
     padding-bottom: 100px;
@@ -727,6 +759,11 @@
   .shop_cart_tr th:first-child {
     padding-left: 14px;
     text-align: center !important;
+  }
+
+  /*  Checkout  Page */
+  .coupon_info input[type="text"] {
+    width: 250px;
   }
 }
 
